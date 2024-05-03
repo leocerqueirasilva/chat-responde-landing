@@ -83,4 +83,14 @@
   .cr-container {
     @apply container mx-auto max-w-[95%] px-3 py-24 md:max-w-7xl duration-300;
   }
+
+  .cr-text-gradient {
+    @apply bg-gradient-to-r from-[#5800AF] to-[#944CDC] inline-block text-transparent bg-clip-text;
+  }
+  .cr-bg-gradient {
+    @apply bg-gradient-to-r from-[#5800AF] to-[#944CDC];
+  }
+  .cr-bg-reverse-gradient {
+    @apply bg-gradient-to-r from-[#944CDC] to-[#5800AF];
+  }
 }
