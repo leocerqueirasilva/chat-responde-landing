@@ -41,3 +41,12 @@ export const resources = [
     icon: "/assets/home/our-resources/connection.svg",
   },
 ];
+
+export const integrations = [
+  "meta",
+  "open-ai",
+  "lead-gen",
+  "google-analytics",
+  "whatsapp",
+  "tik-tok",
+];
