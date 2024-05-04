@@ -1,0 +1,12 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group">
+<circle id="Ellipse" cx="50" cy="50" r="50" fill="white"/>
+<path id="Icon" fill-rule="evenodd" clip-rule="evenodd" d="M50 100C22.3858 100 0 77.6142 0 50C0 22.3858 22.3858 0 50 0C77.6142 0 100 22.3858 100 50C100 77.6142 77.6142 100 50 100ZM68.7464 47.0482C72.4066 49.1634 72.42 51.8243 68.7464 54.2158L40.3616 74.0682C36.7951 76.042 34.3728 74.8766 34.1185 70.6056L33.9981 29.0551C33.9178 25.121 37.0427 24.0094 40.0203 25.8957L68.7464 47.0482Z" fill="url(#paint0_linear_2_322)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_2_322" x1="0" y1="50" x2="100" y2="50" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5800AF"/>
+<stop offset="1" stop-color="#944CDC"/>
+</linearGradient>
+</defs>
+</svg>
