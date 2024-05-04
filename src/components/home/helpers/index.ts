@@ -50,3 +50,30 @@ export const integrations = [
   "whatsapp",
   "tik-tok",
 ];
+
+export const faq = [
+  {
+    id: 0,
+    question: "Não sou programador. Consigo utilizar o ChatResponde?",
+    answer:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, quaerat exercitationem molestias natus sequi qui fuga iste? Reiciendis, veritatis excepturi?",
+  },
+  {
+    id: 1,
+    question: "Quantas conversas posso ter ao mesmo tempo?",
+    answer:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, quaerat exercitationem molestias natus sequi qui fuga iste? Reiciendis, veritatis excepturi?",
+  },
+  {
+    id: 2,
+    question: "Como o robô funciona?",
+    answer:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, quaerat exercitationem molestias natus sequi qui fuga iste? Reiciendis, veritatis excepturi?",
+  },
+  {
+    id: 3,
+    question: "Quando chega meu acesso?",
+    answer:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, quaerat exercitationem molestias natus sequi qui fuga iste? Reiciendis, veritatis excepturi?",
+  },
+];
