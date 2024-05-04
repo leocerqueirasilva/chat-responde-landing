@@ -14,9 +14,7 @@ export default function HeroSection() {
           ilimitadas com clientes simultaneamente. Automatize suas vendas,
           economize tempo e amplie sua presença digital.
         </p>
-        <Button className="font-bold md:w-fit px-14 cr-bg-gradient hover:cr-bg-reverse-gradient">
-          Quero fazer parte!
-        </Button>
+        <Button className="font-bold md:w-fit">Quero fazer parte!</Button>
       </div>
 
       {/* This margin is for compensating image's white space */}

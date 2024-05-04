@@ -16,7 +16,7 @@ export default function OurResources() {
         {resources.map((resource) => (
           <div
             key={resource.id}
-            className="relative bg-muted border-2 border-secondary rounded-xl p-10 text-center"
+            className="relative bg-muted border-2 border-secondary rounded-xl p-10 text-center hover:bg-secondary duration-300"
           >
             <p className="text-lg font-extrabold">{resource.title}</p>
             <p className="mt-5">{resource.description}</p>

@@ -1,8 +1,8 @@
 "use client";
 
 import * as React from "react";
+import Image from "next/image";
 import * as AccordionPrimitive from "@radix-ui/react-accordion";
-import { ChevronDown } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 
@@ -28,13 +28,19 @@ const AccordionTrigger = React.forwardRef<
     <AccordionPrimitive.Trigger
       ref={ref}
       className={cn(
-        "flex flex-1 items-center justify-between text-left py-4 font-medium transition-all hover:underline [&[data-state=open]>svg]:rotate-180",
+        "flex flex-1 items-center justify-between text-left py-4 font-medium transition-all hover:underline [&[data-state=open]>img]:rotate-180",
         className
       )}
       {...props}
     >
       {children}
-      <ChevronDown className="h-6 md:h-8 w-6 md:w-8 shrink-0 transition-transform duration-300" />
+      <Image
+        className="shrink-0 transition-transform duration-300"
+        src="/assets/icons/arrow.svg"
+        alt="Arrow icon"
+        width={15}
+        height={15}
+      />
     </AccordionPrimitive.Trigger>
   </AccordionPrimitive.Header>
 ));

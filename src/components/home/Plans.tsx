@@ -40,7 +40,7 @@ export default function Plans() {
 
           <div className="text-center flex flex-col gap-5 mt-20 md:mt-60 duration-300">
             <h3 className="font-extrabold text-4xl">GRÁTIS</h3>
-            <Button className="font-bold px-20 py-8" variant="secondary">
+            <Button className="font-bold" variant="secondary" size="lg">
               Iniciar
             </Button>
           </div>
@@ -49,7 +49,7 @@ export default function Plans() {
 
         {/* Monthly Plan--------------------------------------------------starts here */}
         <div className="cr-bg-gradient rounded-lg p-1 max-w-sm">
-          <div className="bg-muted rounded-lg px-5 py-10 flex flex-col justify-between gap-20">
+          <div className="bg-muted rounded-lg px-5 py-10 flex flex-col justify-between gap-20 ">
             <div className="flex flex-col gap-10 text-center">
               <h3 className="text-4xl">PLANO MENSAL</h3>
               <p className="text-sm">
@@ -74,11 +74,8 @@ export default function Plans() {
 
             <div className="text-center flex flex-col items-center gap-5">
               <h3 className="font-extrabold text-4xl">R$ 87,90</h3>
-              <div className="cr-bg-reverse-gradient p-[2px] rounded-lg">
-                <Button
-                  className="font-bold px-20 py-8 cr-bg-gradient hover:cr-bg-reverse-gradient w-full"
-                  variant="secondary"
-                >
+              <div className="cr-bg-reverse-gradient p-[2px] rounded-md w-full">
+                <Button className="font-bold w-full" size="lg">
                   Quero fazer parte!
                 </Button>
               </div>
@@ -124,10 +121,11 @@ export default function Plans() {
 
           <div className="text-center flex flex-col items-center gap-5">
             <h3 className="font-extrabold text-4xl">R$ 497,90</h3>
-            <div className="cr-bg-reverse-gradient p-[2px] rounded-lg">
+            <div className="cr-bg-reverse-gradient p-[2px] rounded-lg w-full">
               <Button
-                className="font-bold px-20 py-8 w-full"
+                className="font-bold w-full"
                 variant="secondary"
+                size="lg"
               >
                 Quero fazer parte!
               </Button>

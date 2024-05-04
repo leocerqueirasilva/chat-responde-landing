@@ -1,7 +1,7 @@
 export const resources = [
   {
     id: 0,
-    title: "",
+    title: "Eficiência",
     description:
       "Nossos clientes relatam o aumento exponencial de suas vendas com o uso de nosso sistema",
     icon: "/assets/home/our-resources/efficiency.svg",
