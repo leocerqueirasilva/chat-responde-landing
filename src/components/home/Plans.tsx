@@ -4,7 +4,7 @@ import { freePlanPerks, monthlyPlanPerks } from "./helpers";
 
 export default function Plans() {
   return (
-    <section className="cr-container">
+    <section className="cr-container" id="planos">
       <div className="flex flex-col gap-4 text-center">
         <h3 className="text-4xl font-extrabold">Escolha o plano Ideal</h3>
         <p className="text-lg md:text-xl duration-300">

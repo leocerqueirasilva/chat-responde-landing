@@ -87,6 +87,7 @@
   .cr-text-gradient {
     @apply bg-gradient-to-r from-[#5800AF] to-[#944CDC] inline-block text-transparent bg-clip-text;
   }
+
   .cr-bg-gradient {
     @apply bg-gradient-to-r from-[#5800AF] to-[#944CDC];
   }
