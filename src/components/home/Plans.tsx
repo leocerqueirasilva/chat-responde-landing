@@ -40,7 +40,7 @@ export default function Plans() {
             </div>
           </div>
 
-          <div className="text-center flex flex-col gap-5 md:mt-60 duration-300">
+          <div className="text-center flex flex-col gap-5 mt-20 md:mt-60 duration-300">
             <h3 className="font-extrabold text-4xl">GRÁTIS</h3>
             <Button className="font-bold px-20 py-8" variant="secondary">
               Iniciar
