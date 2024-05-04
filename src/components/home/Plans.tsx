@@ -15,10 +15,10 @@ export default function Plans() {
 
       <div className="flex flex-wrap justify-center gap-10 items-end mt-10 duration-300">
         {/* Free Plan--------------------------------------------------starts here */}
-        <div className="bg-muted rounded-lg px-5 py-10 pb-[91px] flex flex-col justify-between max-w-sm">
+        <div className="bg-muted rounded-lg px-5 py-10 pb-[84px] flex flex-col justify-between max-w-sm">
           <div className="flex flex-col gap-10 text-center">
             <h3 className="text-4xl">PLANO CRIE</h3>
-            <p className="text-lg">
+            <p className="text-sm">
               Automatize seu negócio e venda de forma constante sem precisar
               tocar no celular, sem dificuldade, bastam alguns cliques e pronto,
               tudo funcionando.
@@ -29,12 +29,10 @@ export default function Plans() {
                   <Image
                     src={`/assets/home/plans/${perk.icon}.svg`}
                     alt={perk.title}
-                    width={15}
-                    height={15}
+                    width={12}
+                    height={12}
                   />
-                  <p className="text-lg md:text-xl duration-300">
-                    {perk.title}
-                  </p>
+                  <p className="text-sm">{perk.title}</p>
                 </div>
               ))}
             </div>
@@ -54,7 +52,7 @@ export default function Plans() {
           <div className="bg-muted rounded-lg px-5 py-10 flex flex-col justify-between gap-20">
             <div className="flex flex-col gap-10 text-center">
               <h3 className="text-4xl">PLANO MENSAL</h3>
-              <p className="text-lg">
+              <p className="text-sm">
                 Desbloqueie o potencial do seu negócio com automação contínua.
                 Venda sem esforço e mantenha-se conectado com seus clientes,
                 tudo com apenas alguns cliques.
@@ -65,12 +63,10 @@ export default function Plans() {
                     <Image
                       src={`/assets/home/plans/${perk.icon}.svg`}
                       alt={perk.title}
-                      width={15}
-                      height={15}
+                      width={12}
+                      height={12}
                     />
-                    <p className="text-lg md:text-xl duration-300">
-                      {perk.title}
-                    </p>
+                    <p className="text-sm">{perk.title}</p>
                   </div>
                 ))}
               </div>
@@ -90,10 +86,10 @@ export default function Plans() {
                 <Image
                   src="/assets/home/plans/lock.svg"
                   alt="lock"
-                  width={15}
-                  height={15}
+                  width={12}
+                  height={12}
                 />
-                <p className="text-lg md:text-xl duration-300">Compra segura</p>
+                <p className="text-sm">Compra segura</p>
               </div>
             </div>
           </div>
@@ -107,7 +103,7 @@ export default function Plans() {
             <span className="bg-secondary rounded-md px-3 py-2 w-fit mx-auto text-sm font-semibold">
               Economize <span className="line-through">R$ 647,00</span>
             </span>
-            <p className="text-lg">
+            <p className="text-sm">
               Assinando o nosso plano anual, parcele em 12x no cartão e pague
               apenas R$ 64,96 por mês.
             </p>
@@ -117,12 +113,10 @@ export default function Plans() {
                   <Image
                     src={`/assets/home/plans/${perk.icon}.svg`}
                     alt={perk.title}
-                    width={15}
-                    height={15}
+                    width={12}
+                    height={12}
                   />
-                  <p className="text-lg md:text-xl duration-300">
-                    {perk.title}
-                  </p>
+                  <p className="text-sm">{perk.title}</p>
                 </div>
               ))}
             </div>
@@ -142,10 +136,10 @@ export default function Plans() {
               <Image
                 src="/assets/home/plans/lock.svg"
                 alt="lock"
-                width={15}
-                height={15}
+                width={12}
+                height={12}
               />
-              <p className="text-lg md:text-xl duration-300">Compra segura</p>
+              <p className="text-sm">Compra segura</p>
             </div>
           </div>
         </div>
