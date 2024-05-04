@@ -81,7 +81,7 @@
 
 @layer utilities {
   .cr-container {
-    @apply container mx-auto max-w-[95%] px-3 py-24 md:max-w-7xl duration-300;
+    @apply container mx-auto max-w-[95%] px-3 py-14 md:py-24 md:max-w-7xl duration-300;
   }
 
   .cr-text-gradient {

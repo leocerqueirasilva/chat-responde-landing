@@ -9,7 +9,7 @@ export default function HeroSection() {
           Impulsione suas vendas de forma automática e com muita escala com
           ChatResponde.
         </h2>
-        <p className="text-xl md:text-2xl duration-300">
+        <p className="text-lg md:text-xl duration-300">
           Potencialize seus resultados com nosso chatbot, permitindo interações
           ilimitadas com clientes simultaneamente. Automatize suas vendas,
           economize tempo e amplie sua presença digital.
