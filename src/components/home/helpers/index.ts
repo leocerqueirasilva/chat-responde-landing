@@ -1,7 +1,7 @@
 export const resources = [
   {
     id: 0,
-    title: "Eficiência",
+    title: "",
     description:
       "Nossos clientes relatam o aumento exponencial de suas vendas com o uso de nosso sistema",
     icon: "/assets/home/our-resources/efficiency.svg",
@@ -75,5 +75,129 @@ export const faq = [
     question: "Quando chega meu acesso?",
     answer:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, quaerat exercitationem molestias natus sequi qui fuga iste? Reiciendis, veritatis excepturi?",
+  },
+];
+
+export const freePlanPerks = [
+  {
+    id: 0,
+    title: "Crie seu fluxo",
+    icon: "tick-mark",
+  },
+  {
+    id: 1,
+    title: "Veja o desempenho",
+    icon: "tick-mark",
+  },
+];
+
+export const monthlyPlanPerks = [
+  {
+    id: 0,
+    title: "Crie seu fluxo",
+    icon: "tick-mark",
+  },
+  {
+    id: 1,
+    title: "Veja o desempenho",
+    icon: "graph",
+  },
+  {
+    id: 2,
+    title: "Envios ilimitados",
+    icon: "plus",
+  },
+  {
+    id: 3,
+    title: "Envios de áudios",
+    icon: "mic",
+  },
+  {
+    id: 4,
+    title: "Envios de imagens e vídeos",
+    icon: "image",
+  },
+  {
+    id: 5,
+    title: "Envios de arquivos",
+    icon: "file",
+  },
+  {
+    id: 6,
+    title: "WhatsApp conectado",
+    icon: "whatsapp",
+  },
+  {
+    id: 7,
+    title: "Acesso a integrações",
+    icon: "gear",
+  },
+  {
+    id: 8,
+    title: "Integração via Webhook",
+    icon: "lead-gen",
+  },
+  {
+    id: 9,
+    title: "Domínios personalizados",
+    icon: "www",
+  },
+];
+
+export const annualPlanPerks = [
+  {
+    id: 0,
+    title: "Crie seu fluxo ",
+    icon: "tick-mark",
+  },
+  {
+    id: 1,
+    title: "Veja o desempenho ",
+    icon: "graph",
+  },
+  {
+    id: 2,
+    title: "Envios ilimitados",
+    icon: "plus",
+  },
+  {
+    id: 3,
+    title: "Envios de áudios",
+    icon: "mic",
+  },
+  {
+    id: 4,
+    title: "Envios de imagens e vídeos",
+    icon: "image",
+  },
+  {
+    id: 5,
+    title: "Envios de arquivos",
+    icon: "file",
+  },
+  {
+    id: 6,
+    title: "WhatsApp conectado",
+    icon: "whatsapp",
+  },
+  {
+    id: 7,
+    title: "Acesso a integrações",
+    icon: "grar",
+  },
+  {
+    id: 8,
+    title: "Integração via Webhook",
+    icon: "lead-gen",
+  },
+  {
+    id: 9,
+    title: "Domínios personalizados",
+    icon: "www",
+  },
+  {
+    id: 10,
+    title: "Suporte via WhatsApp",
+    icon: "whatsapp",
   },
 ];
