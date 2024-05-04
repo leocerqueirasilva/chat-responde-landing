@@ -201,3 +201,26 @@ export const annualPlanPerks = [
     icon: "whatsapp",
   },
 ];
+
+export const socialMedia = [
+  {
+    id: 0,
+    icon: "instagram",
+    url: "",
+  },
+  {
+    id: 1,
+    icon: "twitter",
+    url: "",
+  },
+  {
+    id: 2,
+    icon: "facebook",
+    url: "",
+  },
+  {
+    id: 3,
+    icon: "linkedin",
+    url: "",
+  },
+];
