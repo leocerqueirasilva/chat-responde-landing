@@ -80,7 +80,7 @@ export default function Plans() {
               <h3 className="font-extrabold text-4xl">R$ 87,90</h3>
               <div className="cr-bg-reverse-gradient p-[2px] rounded-lg">
                 <Button
-                  className="font-bold px-20 py-8 cr-bg-gradient w-full"
+                  className="font-bold px-20 py-8 cr-bg-gradient hover:cr-bg-reverse-gradient w-full"
                   variant="secondary"
                 >
                   Quero fazer parte!
