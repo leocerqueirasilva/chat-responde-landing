@@ -12,8 +12,8 @@ export default function Footer() {
           {socialMedia.map((item) => (
             <Image
               key={item.id}
-              className="cursor-pointer"
-              src="/assets/footer/"
+              className="cursor-pointer hover:scale-95 duration-300"
+              src={`/assets/icons/${item.icon}.svg`}
               alt={item.icon}
               width={20}
               height={20}
