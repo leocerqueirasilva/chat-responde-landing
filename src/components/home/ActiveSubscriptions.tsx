@@ -19,8 +19,7 @@ export default function ActiveSubscriptions() {
         </div>
         <p className="text-lg md:text-xl max-w-xl duration-300">
           Esse é o número dos nossos parceiros que já automatizaram as vendas em
-          seu WhatsApp. Independentemente do seu serviço ou produto, o Zapp
-          Rápido vende por você. 
+          seu WhatsApp. Independentemente do seu serviço ou produto, o ChatResponde vende por você. 
         </p>
         <Button className="font-bold w-fit px-14 py-8" variant="secondary">
           Quero fazer parte!
