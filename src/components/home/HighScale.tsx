@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 export default function HighScale() {
   return (
@@ -13,9 +14,11 @@ export default function HighScale() {
             Feche múltiplos negócios ao mesmo tempo e maximize seus lucros comos
             nunca antes.
           </p>
+          <Link href="#planos">
           <Button className="font-bold md:w-fit" variant="secondary" size="lg">
             Quero fazer parte!
           </Button>
+          </Link>
         </div>
 
         <Image

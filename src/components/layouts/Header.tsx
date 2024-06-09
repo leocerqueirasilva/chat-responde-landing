@@ -21,10 +21,14 @@ export default function Header() {
               />
             </Link>
           </Button>
+          <Link href="https://bot.chatresponde.com/signin" target="_blank">
           <Button variant="outline" size="sm">
             Entrar
           </Button>
+          </Link>
+          <Link href="https://bot.chatresponde.com/signin" target="_blank">
           <Button size="sm">Criar fluxo</Button>
+          </Link>
         </div>
       </div>
     </header>

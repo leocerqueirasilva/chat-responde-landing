@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
 import { freePlanPerks, monthlyPlanPerks } from "./helpers";
+import Link from "next/link";
 
 export default function Plans() {
   return (
@@ -40,9 +41,11 @@ export default function Plans() {
 
           <div className="text-center flex flex-col gap-5 mt-20 md:mt-60 duration-300">
             <h3 className="font-extrabold text-4xl">GRÁTIS</h3>
+            <Link href="https://bot.chatresponde.com/signin" target="_blank">
             <Button className="font-bold" variant="secondary" size="lg">
               Iniciar
             </Button>
+            </Link>
           </div>
         </div>
         {/* Free Plan--------------------------------------------------ends here */}

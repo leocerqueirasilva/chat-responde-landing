@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -14,7 +15,9 @@ export default function HeroSection() {
           ilimitadas com clientes simultaneamente. Automatize suas vendas,
           economize tempo e amplie sua presença digital.
         </p>
-        <Button className="font-bold md:w-fit">Quero fazer parte!</Button>
+        <Link href="#planos">
+        <Button className="font-bold md:w-fit" >Quero fazer parte!</Button>
+        </Link>
       </div>
 
       <Image

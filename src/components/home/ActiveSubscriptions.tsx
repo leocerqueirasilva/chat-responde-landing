@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import useScrollTriggeredCountUp from "@/hooks/useScrollTriggeredCountUp";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 export default function ActiveSubscriptions() {
   const ref = useRef<HTMLDivElement>(null);
@@ -21,9 +22,11 @@ export default function ActiveSubscriptions() {
           Esse é o número dos nossos parceiros que já automatizaram as vendas em
           seu WhatsApp. Independentemente do seu serviço ou produto, o ChatResponde vende por você. 
         </p>
+        <Link href="#planos">
         <Button className="font-bold w-fit px-14 py-8" variant="secondary">
           Quero fazer parte!
         </Button>
+        </Link>
       </div>
     </section>
   );
