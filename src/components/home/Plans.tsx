@@ -76,11 +76,13 @@ export default function Plans() {
             </div>
 
             <div className="text-center flex flex-col items-center gap-5">
-              <h3 className="font-extrabold text-4xl">R$ 87,90</h3>
+              <h3 className="font-extrabold text-4xl">R$ 67,90</h3>
               <div className="cr-bg-reverse-gradient p-[2px] rounded-md w-full">
+              <Link href="https://checkout.doppus.app/77899393/" target="_blank">
                 <Button className="font-bold w-full" size="lg">
                   Quero fazer parte!
                 </Button>
+              </Link>
               </div>
               <div className="flex items-center gap-1">
                 <Image
@@ -101,11 +103,11 @@ export default function Plans() {
           <div className="flex flex-col gap-10 text-center">
             <h3 className="text-4xl">PLANO ANUAL</h3>
             <span className="bg-secondary rounded-md px-3 py-2 w-fit mx-auto text-sm font-semibold">
-              Economize <span className="line-through">R$ 647,00</span>
+              Economize <span className="line-through">R$ 407,00</span>
             </span>
             <p className="text-sm">
               Assinando o nosso plano anual, parcele em 12x no cartão e pague
-              apenas R$ 64,96 por mês.
+              apenas R$ 39,86 por mês.
             </p>
             <div className="flex flex-col items-center gap-2">
               {monthlyPlanPerks.map((perk) => (
@@ -123,8 +125,9 @@ export default function Plans() {
           </div>
 
           <div className="text-center flex flex-col items-center gap-5">
-            <h3 className="font-extrabold text-4xl">R$ 497,90</h3>
+            <h3 className="font-extrabold text-4xl">R$ 39,86</h3>
             <div className="cr-bg-reverse-gradient p-[2px] rounded-lg w-full">
+            <Link href="https://checkout.doppus.app/94475985/" target="_blank">
               <Button
                 className="font-bold w-full"
                 variant="secondary"
@@ -132,6 +135,7 @@ export default function Plans() {
               >
                 Quero fazer parte!
               </Button>
+            </Link>
             </div>
             <div className="flex items-center gap-1">
               <Image
