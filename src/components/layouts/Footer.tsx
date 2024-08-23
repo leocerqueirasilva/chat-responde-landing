@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { socialMedia } from "../home/helpers";
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -10,14 +11,15 @@ export default function Footer() {
         </span>
         <div className="flex gap-5 mt-10 md:mt-0 duration-300">
           {socialMedia.map((item) => (
-            <Image
-              key={item.id}
-              className="cursor-pointer hover:scale-95 duration-300"
-              src={`/assets/icons/${item.icon}.svg`}
-              alt={item.icon}
-              width={20}
-              height={20}
-            />
+            <Link key={item.id} href={item.url} passHref>
+                <Image
+                  className="cursor-pointer hover:scale-95 duration-300"
+                  src={`/assets/icons/${item.icon}.svg`}
+                  alt={item.icon}
+                  width={20}
+                  height={20}
+                />
+            </Link>
           ))}
         </div>
       </div>

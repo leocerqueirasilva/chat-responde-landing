@@ -56,25 +56,25 @@ export const faq = [
     id: 0,
     question: "Não sou programador. Consigo utilizar o ChatResponde?",
     answer:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, quaerat exercitationem molestias natus sequi qui fuga iste? Reiciendis, veritatis excepturi?",
+      "o ChatResponde é uma ferramenta muito simples e descomplicada, feita exatamente para você que não tem nenhum conhecimento em programaçao, além de tudo preparamos vídeo aulas de alta qualidade e ensinamentos, preparamos uma area de membros onde vamos te ensinar tudo sobre o ChatResponde e muito mais.",
   },
   {
     id: 1,
     question: "Quantas conversas posso ter ao mesmo tempo?",
     answer:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, quaerat exercitationem molestias natus sequi qui fuga iste? Reiciendis, veritatis excepturi?",
+      "Com o ChatResponde não há limites de conversas, a sua base de leads vai ser bem atendida e de uma maneira eficaz.",
   },
   {
     id: 2,
     question: "Como o robô funciona?",
     answer:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, quaerat exercitationem molestias natus sequi qui fuga iste? Reiciendis, veritatis excepturi?",
+      "ChatResponde é muito mais que um robô, com diversas funcionalidades e tudo que há de novo no mercado.",
   },
   {
     id: 3,
     question: "Quando chega meu acesso?",
     answer:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, quaerat exercitationem molestias natus sequi qui fuga iste? Reiciendis, veritatis excepturi?",
+      "O seu acesso vai chegar pelo seu email de cadastro, por isso se atente, coloque um email válido, entre 2 e 5 minutos o seu acesso será liberado, e você vai poder fazer parte desse universo das automaçêes.",
   },
 ];
 
@@ -206,7 +206,7 @@ export const socialMedia = [
   {
     id: 0,
     icon: "instagram",
-    url: "",
+    url: "https://www.instagram.com/chat.responde?igsh=MXVsMWxnbHM5M2h4NQ==",
   },
   {
     id: 1,
